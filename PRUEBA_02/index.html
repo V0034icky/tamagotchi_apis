@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tamagotchis</title>
+  <link href="https://fonts.googleapis.com/css2?family=Changa+One&family=Inter:wght@400;600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/index.css" />
+</head>
+
+<body>
+  <header>
+    <div class="header-logos">
+      <img src="img/tama-header.png" alt="Tamagotchi header" class="tama-header" />
+      <img src="img/logo-chido.png" alt="Logo Tamagotchi" class="logo" />
+    </div>
+
+    <nav class="header-nav">
+      <a href="#base" class="btn-header base">Base Oficial</a>
+      <a href="#mis" class="btn-header mis">Mis Tamagotchis</a>
+      <a href="#favoritos" class="btn-header favoritos">Favoritos</a>
+      <a href="#nuevos" class="btn-header nuevos">Nuevos</a>
+      <a href="#catalogo" class="btn-header catalogo">Catálogo</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ===== BASE OFICIAL ===== -->
+    <section class="apartado" id="base">
+      <h3 class="titulo-seccion">Base Oficial</h3>
+      <div class="contenedor cont-base">
+        <div class="barra-superior">
+          <div class="filtros">
+            <button>Año</button>
+            <button>Generación</button>
+            <button>Edición</button>
+          </div>
+          <input type="text" placeholder="Buscar Tamagotchi..." class="input-buscar" />
+        </div>
+
+        <div class="tarjetas-wrapper">
+          <div class="tarjeta tarjeta-rosa">
+            <div class="contenido-tarjeta">
+              <h3 class="nombre-tamagotchi">Nombre</h3>
+              <img src="img/PLACEHOLDER.png" alt="Imagen Tamagotchi" class="img-tamagotchi" />
+
+              <div class="info-tarjeta">
+                <div class="columna-izquierda">
+                  <p class="especie"><strong>Especie:</strong><br>Desconocido</p>
+                  <p class="gen"><strong>Gen 0</strong></p>
+                </div>
+                <div class="columna-derecha">
+                  <p class="anio"><strong>Año:</strong> xxxx</p>
+                  <p class="edicion"><strong>Edición:</strong> Desconocido</p>
+                </div>
+              </div>
+
+              <div class="botones-tarjeta">
+                <button class="btn-tarjeta agregar">Agregar a Colección</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== MIS TAMAGOTCHIS ===== -->
+    <section class="apartado" id="mis">
+      <h3 class="titulo-seccion">Mis Tamagotchis</h3>
+      <div class="contenedor cont-mis">
+        <div class="barra-superior">
+          <div class="filtros">
+            <button>Año</button>
+            <button>Generación</button>
+            <button>Edición</button>
+          </div>
+          <input type="text" placeholder="Buscar Tamagotchi..." class="input-buscar" />
+        </div>
+
+        <div class="tarjetas-wrapper">
+          <div class="tarjeta tarjeta-verde">
+            <button class="corazon"></button>
+            <div class="contenido-tarjeta">
+              <h3 class="nombre-tamagotchi">Nombre</h3>
+              <img src="img/PLACEHOLDER.png" alt="Imagen Tamagotchi" class="img-tamagotchi" />
+
+              <div class="info-tarjeta">
+                <div class="columna-izquierda">
+                  <p class="especie"><strong>Especie:</strong><br>Desconocido</p>
+                  <p class="gen"><strong>Gen 0</strong></p>
+                </div>
+                <div class="columna-derecha">
+                  <p class="anio"><strong>Año:</strong> xxxx</p>
+                  <p class="edicion"><strong>Edición:</strong> Desconocido</p>
+                </div>
+              </div>
+
+              <div class="botones-tarjeta">
+                <button class="btn-tarjeta eliminar">Eliminar de Colección</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FAVORITOS ===== -->
+    <section class="apartado" id="favoritos">
+      <h3 class="titulo-seccion">Favoritos</h3>
+      <div class="contenedor cont-favoritos">
+        <div class="barra-superior">
+          <div class="filtros">
+            <button>Año</button>
+            <button>Generación</button>
+            <button>Edición</button>
+          </div>
+          <input type="text" placeholder="Buscar Tamagotchi..." class="input-buscar" />
+        </div>
+
+        <div class="tarjetas-wrapper">
+          <div class="tarjeta tarjeta-morada">
+            <button class="corazon activo"></button>
+            <div class="contenido-tarjeta">
+              <h3 class="nombre-tamagotchi">Nombre</h3>
+              <img src="img/PLACEHOLDER.png" alt="Imagen Tamagotchi" class="img-tamagotchi" />
+
+              <div class="info-tarjeta">
+                <div class="columna-izquierda">
+                  <p class="especie"><strong>Especie:</strong><br>Desconocido</p>
+                  <p class="gen"><strong>Gen 0</strong></p>
+                </div>
+                <div class="columna-derecha">
+                  <p class="anio"><strong>Año:</strong> xxxx</p>
+                  <p class="edicion"><strong>Edición:</strong> Desconocido</p>
+                </div>
+              </div>
+
+              <div class="botones-tarjeta">
+                <button class="btn-tarjeta eliminar">Eliminar de Colección</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== NUEVOS ===== -->
+    <section class="apartado" id="nuevos">
+      <h3 class="titulo-seccion">Nuevos</h3>
+      <div class="contenedor cont-nuevos">
+        <div class="barra-superior">
+          <div class="filtros">
+            <button>Año</button>
+            <button>Generación</button>
+            <button>Edición</button>
+          </div>
+          <input type="text" placeholder="Buscar Tamagotchi..." class="input-buscar" />
+        </div>
+
+        <div class="tarjetas-wrapper">
+          <div class="tarjeta tarjeta-amarilla">
+            <div class="contenido-tarjeta">
+              <h3 class="nombre-tamagotchi">Nombre</h3>
+              <img src="img/PLACEHOLDER.png" alt="Imagen Tamagotchi" class="img-tamagotchi" />
+
+              <div class="info-tarjeta">
+                <div class="columna-izquierda">
+                  <p class="especie"><strong>Especie:</strong><br>Desconocido</p>
+                  <p class="gen"><strong>Gen 0</strong></p>
+                </div>
+                <div class="columna-derecha">
+                  <p class="anio"><strong>Año:</strong> xxxx</p>
+                  <p class="edicion"><strong>Edición:</strong> Desconocido</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CATÁLOGO GENERAL ===== -->
+    <section class="apartado" id="catalogo">
+      <h3 class="titulo-seccion">Catálogo General</h3>
+      <div class="contenedor cont-catalogo">
+        <div class="barra-superior">
+          <div class="filtros">
+            <button>Año</button>
+            <button>Generación</button>
+            <button>Edición</button>
+          </div>
+          <input type="text" placeholder="Buscar Tamagotchi..." class="input-buscar" />
+        </div>
+
+        <div class="tarjetas-wrapper">
+          <div class="tarjeta tarjeta-azul">
+            <div class="contenido-tarjeta">
+              <h3 class="nombre-tamagotchi">Nombre</h3>
+              <img src="img/PLACEHOLDER.png" alt="Imagen Tamagotchi" class="img-tamagotchi" />
+
+              <div class="info-tarjeta">
+                <div class="columna-izquierda">
+                  <p class="especie"><strong>Especie:</strong><br>Desconocido</p>
+                  <p class="gen"><strong>Gen 0</strong></p>
+                </div>
+                <div class="columna-derecha">
+                  <p class="anio"><strong>Año:</strong> xxxx</p>
+                  <p class="edicion"><strong>Edición:</strong> Desconocido</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <nav>
+      <a href="#base">Base Oficial</a>
+      <a href="#mis">Mis Tamagotchis</a>
+      <a href="#favoritos">Favoritos</a>
+      <a href="#nuevos">Nuevos</a>
+      <a href="#catalogo">Catálogo</a>
+    </nav>
+    <div class="footer-login">
+      <a href="login.html" class="btn-login">Iniciar Sesión</a>
+    </div>
+  </footer>
+
+  <script>
+    document.querySelectorAll(".corazon").forEach(corazon => {
+      corazon.addEventListener("click", () => {
+        corazon.classList.toggle("activo");
+      });
+    });
+  </script>
+</body>
+
+</html>
