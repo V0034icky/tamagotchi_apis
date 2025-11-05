@@ -219,17 +219,22 @@
 
   <!-- FOOTER -->
   <footer>
-    <nav>
+  <div class="footer-contenido">
+    <div class="footer-logos">
+      <img src="img/tama-header.png" alt="Tamagotchi footer" class="tama-footer" />
+      <img src="img/logo-chido.png" alt="Logo Tamagotchi" class="logo-footer" />
+    </div>
+
+    <nav class="footer-nav">
       <a href="#base">Base Oficial</a>
       <a href="#mis">Mis Tamagotchis</a>
       <a href="#favoritos">Favoritos</a>
       <a href="#nuevos">Nuevos</a>
       <a href="#catalogo">Catálogo</a>
+      <a href="login.html">Iniciar Sesión</a>
     </nav>
-    <div class="footer-login">
-      <a href="login.html" class="btn-login">Iniciar Sesión</a>
-    </div>
-  </footer>
+  </div>
+</footer>
 
   <script>
     document.querySelectorAll(".corazon").forEach(corazon => {
@@ -238,6 +243,8 @@
       });
     });
   </script>
+
+  <script src="js/index.js"></script>
 </body>
 
 </html>

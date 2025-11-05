@@ -60,14 +60,17 @@ header {
 
 /* ===== CONTENEDORES ===== */
 .contenedor {
+  position: relative;           /* necesario para que .barra-superior se posicione dentro */
   margin: 0 auto;
   width: 85%;
   border-radius: 25px;
   padding: 25px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  max-height: 480px;
-  overflow-y: auto;
+  max-height: 700px;
+  overflow: hidden;             /* ocultamos el scroll general */
   border: 2px solid #0D0B1E;
+  display: flex;
+  flex-direction: column;
 }
 .cont-base { background-color: #F3C0EF; }
 .cont-mis { background-color: #C3ECD0; }
@@ -77,14 +80,26 @@ header {
 
 /* ===== BARRA SUPERIOR ===== */
 .barra-superior {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 15px;
-  margin-bottom: 20px;
+  position: sticky;
+  top: 0;
+  background-color: inherit;
+  z-index: 10;
+  padding-bottom: 10px;
+  padding-top: 5px;
+
+  display: flex;                  /* 🟢 importante */
+  justify-content: space-between; /* separa filtros e input */
+  align-items: center;            /* los centra verticalmente */
+  flex-wrap: wrap;                /* evita que se amontonen */
+  gap: 10px;
 }
-.filtros { display: flex; gap: 15px; flex-wrap: wrap; }
+
+.filtros {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
 .input-buscar {
   padding: 10px 15px;
   border: 2px solid #0D0B1E;
@@ -126,6 +141,25 @@ header {
   height: 290px;
   width: 280px;
 }
+.tarjetas-wrapper {
+  flex: 1;                      /* ocupa el resto del espacio */
+  overflow-y: auto;             /* aquí está el scroll */
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  justify-items: center;
+  align-items: start;
+  scroll-behavior: smooth;
+}
+.tarjetas-wrapper::-webkit-scrollbar {
+  width: 10px;
+}
+.tarjetas-wrapper::-webkit-scrollbar-thumb {
+  background-color: rgba(0,0,0,0.2);
+  border-radius: 10px;
+}
+
 
 /* CONTENIDO TARJETA */
 .contenido-tarjeta {
@@ -146,14 +180,10 @@ header {
 .img-tamagotchi {
   display: block;
   margin: 0 auto 10px auto;
-  width: 100px;
-  height: 100px;
+  height: 130px;
   object-fit: contain;
-  background-color: rgba(255, 255, 255, 0.4);
-  border-radius: 50%;
-  border: 2px solid #0D0B1E;
-  padding: 5px;
 }
+
 
 .info-tarjeta {
   display: flex;
@@ -226,49 +256,79 @@ btn-tarjeta:hover { transform: scale(1.05); filter: brightness(1.1); }
 
 /* ===== FOOTER ===== */
 footer {
-  background-color: #0D0B1E;
-  color: #fff;
-  padding: 25px 10px 30px;
-  text-align: center;
-  margin-top: 40px;
+  background-color: #fff; /* fondo blanco */
+  color: #0D0B1E;
+  padding: 40px 60px;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
-}
-footer nav {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 15px;
-  margin-bottom: 20px;
-}
-footer nav a {
-  color: #fff;
-  font-weight: 600;
-  text-decoration: none;
-  padding: 8px 14px;
-  border-radius: 8px;
-  background-color: rgba(255,255,255,0.1);
-  transition: background 0.3s ease;
-}
-footer nav a:hover { background-color: rgba(255,255,255,0.3); }
-.footer-login .btn-login {
-  display: inline-block;
-  background-color: #FFD97D;
-  color: #0D0B1E;
-  font-weight: bold;
-  text-decoration: none;
-  padding: 10px 20px;
-  border-radius: 10px;
-  transition: transform 0.2s ease, background-color 0.3s ease;
-}
-.footer-login .btn-login:hover {
-  background-color: #FF6EF0;
-  color: white;
-  transform: scale(1.05);
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 80px;
 }
 
-/* ===== RESPONSIVO ===== */
+.footer-contenido {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+/* LOGOS centrados verticalmente */
+.footer-logos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;   /* centra horizontalmente */
+  justify-content: center; /* centra verticalmente dentro del bloque */
+  gap: 10px;
+}
+
+.tama-footer {
+  height: 120px;
+  width: auto;
+  display: block;
+  margin: 0 auto; /* asegura el centrado horizontal */
+}
+
+.logo-footer {
+  height: 150px;
+  width: auto;
+  display: block;
+  margin: 0 auto; /* asegura el centrado horizontal */
+}
+
+/* LINKS (no se mueven) */
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* izquierda */
+  justify-content: flex-start;
+  gap: 12px;
+}
+
+.footer-nav a {
+  font-family: 'Changa One', cursive;
+  color: #0D0B1E;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: transform 0.2s ease, color 0.3s ease;
+}
+
+.footer-nav a:hover {
+  color: #FF6EF0;
+  transform: translateX(5px);
+}
+
+/* RESPONSIVO */
 @media (max-width: 768px) {
-  .barra-superior { flex-direction: column; }
-  .input-buscar { width: 100%; }
+  .footer-contenido {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .footer-logos {
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .footer-nav {
+    align-items: center;
+  }
 }

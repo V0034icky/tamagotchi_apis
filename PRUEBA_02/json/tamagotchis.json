@@ -1,0 +1,1652 @@
+{
+  "resultados": [
+    {
+      "nombre": "Mametchi",
+      "imagen": "./img/TAMAS/000.png",
+      "especie": "Standard",
+      "año": 1996,
+      "generacion": "GEN 1",
+      "edicion": "Original"
+    },
+    {
+      "nombre": "Ginjirotchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/original/character/ginjirotchi.png"],
+      "especie": "Standard",
+      "año": 1996,
+      "generacion": "GEN 1",
+      "edicion": "Original"
+    },
+    {
+      "nombre": "Maskutchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/original/character/maskutchi.png"],
+      "especie": "Standard",
+      "año": 1996,
+      "generacion": "GEN 1",
+      "edicion": "Original"
+    },
+    {
+      "nombre": "Kuchipatchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/original/character/kuchipatchi.png"],
+      "especie": "Standard",
+      "año": 1996,
+      "generacion": "GEN 1",
+      "edicion": "Original"
+    },
+    {
+      "nombre": "Nyorotchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/original/character/nyorotchi.png"],
+      "especie": "Standard",
+      "año": 1996,
+      "generacion": "GEN 1",
+      "edicion": "Original"
+    },
+    {
+      "nombre": "Tarakotchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/original/character/tarakotchi.png"],
+      "especie": "Standard",
+      "año": 1996,
+      "generacion": "GEN 1",
+      "edicion": "Original"
+    },
+    {
+      "nombre": "Tamatchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/original/character/tamatchi.png"],
+      "especie": "Standard",
+      "año": 1996,
+      "generacion": "GEN 1",
+      "edicion": "Original"
+    },
+    {
+      "nombre": "Kuchitamatchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/original/character/kuchitamatchi.png"],
+      "especie": "Standard",
+      "año": 1996,
+      "generacion": "GEN 1",
+      "edicion": "Original"
+    },
+    {
+      "nombre": "Marutchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/original/character/marutchi.png"],
+      "especie": "Standard",
+      "año": 1996,
+      "generacion": "GEN 1",
+      "edicion": "Original"
+    },
+    {
+      "nombre": "Babytchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/original/character/babytchi.png"],
+      "especie": "Cute",
+      "año": 1996,
+      "generacion": "GEN 1",
+      "edicion": "Original"
+    },
+    {
+      "nombre": "Mimitchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/original/character/mimitchi.png"],
+      "especie": "Standard",
+      "año": 1997,
+      "generacion": "GEN 2",
+      "edicion": "Original"
+    },
+    {
+      "nombre": "Pochitchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/original/character/pochitchi.png"],
+      "especie": "Cute",
+      "año": 1997,
+      "generacion": "GEN 2",
+      "edicion": "Original"
+    },
+    {
+      "nombre": "Zukitchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/original/character/zukitchi.png"],
+      "especie": "Standard",
+      "año": 1997,
+      "generacion": "GEN 2",
+      "edicion": "Original"
+    },
+    {
+      "nombre": "Hashizotchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/original/character/hashizotchi.png"],
+      "especie": "Standard",
+      "año": 1997,
+      "generacion": "GEN 2",
+      "edicion": "Original"
+    },
+    {
+      "nombre": "Takotchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/original/character/takotchi.png"],
+      "especie": "Standard",
+      "año": 1997,
+      "generacion": "GEN 2",
+      "edicion": "Original"
+    },
+    {
+      "nombre": "Kusatchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/original/character/kusatchi.png"],
+      "especie": "Standard",
+      "año": 1997,
+      "generacion": "GEN 2",
+      "edicion": "Original"
+    },
+    {
+      "nombre": "Tongaritchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/original/character/tongaritchi.png"],
+      "especie": "Standard",
+      "año": 1997,
+      "generacion": "GEN 2",
+      "edicion": "Original"
+    },
+    {
+      "nombre": "Hashitamatchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/original/character/hashitamatchi.png"],
+      "especie": "Standard",
+      "año": 1997,
+      "generacion": "GEN 2",
+      "edicion": "Original"
+    },
+    {
+      "nombre": "Tonmarutchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/original/character/tonmarutchi.png"],
+      "especie": "Standard",
+      "año": 1997,
+      "generacion": "GEN 2",
+      "edicion": "Original"
+    },
+    {
+      "nombre": "Shirobabytchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/original/character/shirobabytchi.png"],
+      "especie": "Cute",
+      "año": 1997,
+      "generacion": "GEN 2",
+      "edicion": "Original"
+    },
+    {
+      "nombre": "Obaketchi Angel",
+      "imagen": ["https://tamagotchi-official.com/gb/series/original/character/obaketchiangel.png"],
+      "especie": "Angel",
+      "año": 1998,
+      "generacion": "GEN 3",
+      "edicion": "Original"
+    },
+    {
+      "nombre": "Marutchi Angel",
+      "imagen": ["https://tamagotchi-official.com/gb/series/original/character/marutchiangel.png"],
+      "especie": "Angel",
+      "año": 1998,
+      "generacion": "GEN 3",
+      "edicion": "Original"
+    },
+    {
+      "nombre": "Tamatchi Angel",
+      "imagen": ["https://tamagotchi-official.com/gb/series/original/character/tamatchiangel.png"],
+      "especie": "Angel",
+      "año": 1998,
+      "generacion": "GEN 3",
+      "edicion": "Original"
+    },
+    {
+      "nombre": "Takotchi Angel",
+      "imagen": ["https://tamagotchi-official.com/gb/series/original/character/takotchiangel.png"],
+      "especie": "Angel",
+      "año": 1998,
+      "generacion": "GEN 3",
+      "edicion": "Original"
+    },
+    {
+      "nombre": "Chestnut Angel",
+      "imagen": ["https://tamagotchi-official.com/gb/series/original/character/chestnutangel.png"],
+      "especie": "Angel",
+      "año": 1998,
+      "generacion": "GEN 3",
+      "edicion": "Original"
+    },
+    {
+      "nombre": "Ginjirotchi Angel",
+      "imagen": ["https://tamagotchi-official.com/gb/series/original/character/ginjirotchiangel.png"],
+      "especie": "Angel",
+      "año": 1998,
+      "generacion": "GEN 3",
+      "edicion": "Original"
+    },
+    {
+      "nombre": "Chubby Angel",
+      "imagen": ["https://tamagotchi-official.com/gb/series/original/character/chubbyangel.png"],
+      "especie": "Angel",
+      "año": 1998,
+      "generacion": "GEN 3",
+      "edicion": "Original"
+    },
+    {
+      "nombre": "Tarakotchi Angel",
+      "imagen": ["https://tamagotchi-official.com/gb/series/original/character/tarakotchiangel.png"],
+      "especie": "Angel",
+      "año": 1998,
+      "generacion": "GEN 3",
+      "edicion": "Original"
+    },
+    {
+      "nombre": "Oyajitchi Angel",
+      "imagen": ["https://tamagotchi-official.com/gb/series/original/character/oyajitchiangel.png"],
+      "especie": "Angel",
+      "año": 1998,
+      "generacion": "GEN 3",
+      "edicion": "Original"
+    },
+    {
+      "nombre": "Memetchi",
+      "imagen": ["https://tamagotchi-official.com/gb/character/memetchi.png"],
+      "especie": "Standard",
+      "año": 2021,
+      "generacion": "Era Digital Moderna",
+      "edicion": "Tamagotchi"
+    },
+    {
+      "nombre": "Furawatchi",
+      "imagen": ["https://tamagotchi-official.com/gb/character/furawatchi.png"],
+      "especie": "Animal",
+      "año": 2021,
+      "generacion": "Era Digital Moderna",
+      "edicion": "Tamagotchi"
+    },
+    {
+      "nombre": "Weeptchi",
+      "imagen": ["https://tamagotchi-official.com/gb/character/weeptchi.png"],
+      "especie": "Cute",
+      "año": 2021,
+      "generacion": "Era Digital Moderna",
+      "edicion": "Tamagotchi"
+    },
+    {
+      "nombre": "Milktchi",
+      "imagen": ["https://tamagotchi-official.com/gb/character/milktchi.png"],
+      "especie": "Animal",
+      "año": 2021,
+      "generacion": "Era Digital Moderna",
+      "edicion": "Tamagotchi"
+    },
+    {
+      "nombre": "Gozarutchi",
+      "imagen": ["https://tamagotchi-official.com/gb/character/gozarutchi.png"],
+      "especie": "Animal",
+      "año": 2021,
+      "generacion": "Era Digital Moderna",
+      "edicion": "Tamagotchi"
+    },
+    {
+      "nombre": "Shykutchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/uni/character/shykutchi.png"],
+      "especie": "Standard",
+      "año": 2023,
+      "generacion": "Uni Series",
+      "edicion": "Uni"
+    },
+    {
+      "nombre": "Bigsmile",
+      "imagen": ["https://tamagotchi-official.com/gb/series/uni/character/bigsmile.png"],
+      "especie": "Standard",
+      "año": 2023,
+      "generacion": "Uni Series",
+      "edicion": "Uni"
+    },
+    {
+      "nombre": "Hypertchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/uni/character/hypertchi.png"],
+      "especie": "Standard",
+      "año": 2023,
+      "generacion": "Uni Series",
+      "edicion": "Uni"
+    },
+    {
+      "nombre": "Picochutchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/uni/character/picochutchi.png"],
+      "especie": "Standard",
+      "año": 2023,
+      "generacion": "Uni Series",
+      "edicion": "Uni"
+    },
+    {
+      "nombre": "Woopatchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/uni/character/woopatchi.png"],
+      "especie": "Standard",
+      "año": 2023,
+      "generacion": "Uni Series",
+      "edicion": "Uni"
+    },
+    {
+      "nombre": "Bubbletchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/uni/character/bubbletchi.png"],
+      "especie": "Standard",
+      "año": 2023,
+      "generacion": "Uni Series",
+      "edicion": "Uni"
+    },
+    {
+      "nombre": "Unimarutchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/uni/character/unimarutchi.png"],
+      "especie": "Standard",
+      "año": 2023,
+      "generacion": "Uni Series",
+      "edicion": "Uni"
+    },
+    {
+      "nombre": "Kikitchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/uni/character/kikitchi.png"],
+      "especie": "Standard",
+      "año": 2023,
+      "generacion": "Uni Series",
+      "edicion": "Uni"
+    },
+    {
+      "nombre": "Simagurutchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/uni/character/simagurutchi.png"],
+      "especie": "Standard",
+      "año": 2023,
+      "generacion": "Uni Series",
+      "edicion": "Uni"
+    },
+    {
+      "nombre": "Sebiretchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/uni/character/sebiretchi.png"],
+      "especie": "Standard",
+      "año": 2023,
+      "generacion": "Uni Series",
+      "edicion": "Uni"
+    },
+    {
+      "nombre": "Neliatchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/uni/character/neliatchi.png"],
+      "especie": "Standard",
+      "año": 2023,
+      "generacion": "Uni Series",
+      "edicion": "Uni"
+    },
+    {
+      "nombre": "Momotchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/uni/character/momotchi.png"],
+      "especie": "Standard",
+      "año": 2023,
+      "generacion": "Uni Series",
+      "edicion": "Uni"
+    },
+    {
+      "nombre": "Simasimatchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/uni/character/simasimatchi.png"],
+      "especie": "Standard",
+      "año": 2023,
+      "generacion": "Uni Series",
+      "edicion": "Uni"
+    },
+    {
+      "nombre": "Yattatchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/uni/character/yattatchi.png"],
+      "especie": "Standard",
+      "año": 2023,
+      "generacion": "Uni Series",
+      "edicion": "Uni"
+    },
+    {
+      "nombre": "Ichigotchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/uni/character/ichigotchi.png"],
+      "especie": "Standard",
+      "año": 2023,
+      "generacion": "Uni Series",
+      "edicion": "Uni"
+    },
+    {
+      "nombre": "Ringotchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/uni/character/ringotchi.png"],
+      "especie": "Standard",
+      "año": 2023,
+      "generacion": "Uni Series",
+      "edicion": "Uni"
+    },
+    {
+      "nombre": "Hotcaketchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/uni/character/hotcaketchi.png"],
+      "especie": "Standard",
+      "año": 2023,
+      "generacion": "Uni Series",
+      "edicion": "Uni"
+    },
+    {
+      "nombre": "Patitchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/uni/character/patitchi.png"],
+      "especie": "Standard",
+      "año": 2023,
+      "generacion": "Uni Series",
+      "edicion": "Uni"
+    },
+    {
+      "nombre": "Cornetchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/uni/character/cornetchi.png"],
+      "especie": "Standard",
+      "año": 2023,
+      "generacion": "Uni Series",
+      "edicion": "Uni"
+    },
+    {
+      "nombre": "Tanghulutchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/uni/character/tanghulutchi.png"],
+      "especie": "Standard",
+      "año": 2023,
+      "generacion": "Uni Series",
+      "edicion": "Uni"
+    },
+    {
+      "nombre": "Lovelitchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/uni/character/lovelitchi.png"],
+      "especie": "Standard",
+      "año": 2023,
+      "generacion": "Uni Series",
+      "edicion": "Uni"
+    },
+    {
+      "nombre": "Melodytchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/uni/character/melodytchi.png"],
+      "especie": "Standard",
+      "año": 2023,
+      "generacion": "Uni Series",
+      "edicion": "Uni"
+    },
+    {
+      "nombre": "Chekeratchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/uni/character/chekeratchi.png"],
+      "especie": "Standard",
+      "año": 2023,
+      "generacion": "Uni Series",
+      "edicion": "Uni"
+    },
+    {
+      "nombre": "Pianitchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/uni/character/pianitchi.png"],
+      "especie": "Standard",
+      "año": 2023,
+      "generacion": "Uni Series",
+      "edicion": "Uni"
+    },
+    {
+      "nombre": "Drumcrubtchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/uni/character/drumcrubtchi.png"],
+      "especie": "Standard",
+      "año": 2023,
+      "generacion": "Uni Series",
+      "edicion": "Uni"
+    },
+    {
+      "nombre": "Rhythristchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/uni/character/rhythristchi.png"],
+      "especie": "Standard",
+      "año": 2023,
+      "generacion": "Uni Series",
+      "edicion": "Uni"
+    },
+    {
+      "nombre": "Coffretchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/uni/character/coffretchi.png"],
+      "especie": "Standard",
+      "año": 2023,
+      "generacion": "Uni Series",
+      "edicion": "Uni"
+    },
+    {
+      "nombre": "Moriritchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/uni/character/moriritchi.png"],
+      "especie": "Standard",
+      "año": 2023,
+      "generacion": "Uni Series",
+      "edicion": "Uni"
+    },
+    {
+      "nombre": "Mystartchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/uni/character/mystartchi.png"],
+      "especie": "Standard",
+      "año": 2023,
+      "generacion": "Uni Series",
+      "edicion": "Uni"
+    },
+    {
+      "nombre": "Spacytchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/uni/character/spacytchi.png"],
+      "especie": "Standard",
+      "año": 2023,
+      "generacion": "Uni Series",
+      "edicion": "Uni"
+    },
+    {
+      "nombre": "Dresstchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/uni/character/dresstchi.png"],
+      "especie": "Standard",
+      "año": 2023,
+      "generacion": "Uni Series",
+      "edicion": "Uni"
+    },
+    {
+      "nombre": "Bootsbrothers",
+      "imagen": ["https://tamagotchi-official.com/gb/series/uni/character/bootsbrothers.png"],
+      "especie": "Standard",
+      "año": 2023,
+      "generacion": "Uni Series",
+      "edicion": "Uni"
+    },
+    {
+      "nombre": "Mame-El",
+      "imagen": ["https://tamagotchi-official.com/gb/series/uni/character/mame-el.png"],
+      "especie": "Standard",
+      "año": 2023,
+      "generacion": "Uni Series",
+      "edicion": "Uni"
+    },
+    {
+      "nombre": "Pegasustchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/uni/character/pegasustchi.png"],
+      "especie": "Standard",
+      "año": 2023,
+      "generacion": "Uni Series",
+      "edicion": "Uni"
+    },
+    {
+      "nombre": "Flowerdite",
+      "imagen": ["https://tamagotchi-official.com/gb/series/uni/character/flowerdite.png"],
+      "especie": "Standard",
+      "año": 2023,
+      "generacion": "Uni Series",
+      "edicion": "Uni"
+    },
+    {
+      "nombre": "Sebirecupid",
+      "imagen": ["https://tamagotchi-official.com/gb/series/uni/character/sebirecupid.png"],
+      "especie": "Standard",
+      "año": 2023,
+      "generacion": "Uni Series",
+      "edicion": "Uni"
+    },
+    {
+      "nombre": "Unimarucorn",
+      "imagen": ["https://tamagotchi-official.com/gb/series/uni/character/unimarucorn.png"],
+      "especie": "Standard",
+      "año": 2023,
+      "generacion": "Uni Series",
+      "edicion": "Uni"
+    },
+    {
+      "nombre": "Yumemittie",
+      "imagen": ["https://tamagotchi-official.com/gb/series/uni/character/yumemittie.png"],
+      "especie": "Standard",
+      "año": 2023,
+      "generacion": "Uni Series",
+      "edicion": "Uni"
+    },
+    {
+      "nombre": "Mamegon",
+      "imagen": ["https://tamagotchi-official.com/gb/series/uni/character/mamegon.png"],
+      "especie": "Standard",
+      "año": 2023,
+      "generacion": "Uni Series",
+      "edicion": "Uni"
+    },
+    {
+      "nombre": "Slimypatchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/uni/character/slimypatchi.png"],
+      "especie": "Standard",
+      "año": 2023,
+      "generacion": "Uni Series",
+      "edicion": "Uni"
+    },
+     {
+      "nombre": "Onimarutchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/uni/character/onimarutchi.png"],
+      "especie": "Standard",
+      "año": 2023,
+      "generacion": "Uni Series",
+      "edicion": "Uni"
+    },
+    {
+      "nombre": "Meduupa",
+      "imagen": ["https://tamagotchi-official.com/gb/series/uni/character/meduupa.png"],
+      "especie": "Standard",
+      "año": 2023,
+      "generacion": "Uni Series",
+      "edicion": "Uni"
+    },
+    {
+      "nombre": "Gobpyon",
+      "imagen": ["https://tamagotchi-official.com/gb/series/uni/character/gobpyon.png"],
+      "especie": "Standard",
+      "año": 2023,
+      "generacion": "Uni Series",
+      "edicion": "Uni"
+    },
+    {
+      "nombre": "Giveuptchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/uni/character/giveuptchi.png"],
+      "especie": "Standard",
+      "año": 2023,
+      "generacion": "Uni Series",
+      "edicion": "Uni"
+    },
+    {
+      "nombre": "K Mametchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/uni/character/mametchi.png"],
+      "especie": "Standard",
+      "año": 2023,
+      "generacion": "Uni Series",
+      "edicion": "Uni"
+    },
+    {
+      "nombre": "P Patchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/uni/character/mimitchi.png"],
+      "especie": "Standard",
+      "año": 2023,
+      "generacion": "Uni Series",
+      "edicion": "Uni"
+    },
+    {
+      "nombre": "H Sebiretchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/uni/character/sebiretchi.png"],
+      "especie": "Standard",
+      "año": 2023,
+      "generacion": "Uni Series",
+      "edicion": "Uni"
+    },
+    {
+      "nombre": "L Unimaru",
+      "imagen": ["https://tamagotchi-official.com/gb/series/uni/character/unimarutchi.png"],
+      "especie": "Standard",
+      "año": 2023,
+      "generacion": "Uni Series",
+      "edicion": "Uni"
+    },
+    {
+      "nombre": "U Memetchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/uni/character/memetchi.png"],
+      "especie": "Standard",
+      "año": 2023,
+      "generacion": "Uni Series",
+      "edicion": "Uni"
+    },
+    {
+      "nombre": "M Lovelitchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/uni/character/lovelitchi.png"],
+      "especie": "Standard",
+      "año": 2023,
+      "generacion": "Uni Series",
+      "edicion": "Uni"
+    },
+    {
+      "nombre": "K Melodytchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/uni/character/melodytchi.png"],
+      "especie": "Standard",
+      "año": 2023,
+      "generacion": "Uni Series",
+      "edicion": "Uni"
+    },
+    {
+      "nombre": "C Woopatchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/uni/character/woopatchi.png"],
+      "especie": "Standard",
+      "año": 2023,
+      "generacion": "Uni Series",
+      "edicion": "Uni"
+    },
+    {
+      "nombre": "P Mimitchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/uni/character/mimitchi.png"],
+      "especie": "Standard",
+      "año": 2023,
+      "generacion": "Uni Series",
+      "edicion": "Uni"
+    },
+    {
+      "nombre": "Kuroteletchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/connection/character/kuroteletchi.png"],
+      "especie": "Standard",
+      "año": 2024,
+      "generacion": "Connection Series",
+      "edicion": "Connection"
+    },
+    {
+      "nombre": "Shiroteletchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/connection/character/shiroteletchi.png"],
+      "especie": "Standard",
+      "año": 2024,
+      "generacion": "Connection Series",
+      "edicion": "Connection"
+    },
+    {
+      "nombre": "Mizutamatchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/connection/character/mizutamatchi.png"],
+      "especie": "Standard",
+      "año": 2024,
+      "generacion": "Connection Series",
+      "edicion": "Connection"
+    },
+    {
+      "nombre": "Mohitamatchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/connection/character/mohitamatchi.png"],
+      "especie": "Standard",
+      "año": 2024,
+      "generacion": "Connection Series",
+      "edicion": "Connection"
+    },
+    {
+      "nombre": "Obotchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/connection/character/obotchi.png"],
+      "especie": "Standard",
+      "año": 2024,
+      "generacion": "Connection Series",
+      "edicion": "Connection"
+    },
+    {
+      "nombre": "Youngmametchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/connection/character/youngmametchi.png"],
+      "especie": "Standard",
+      "año": 2024,
+      "generacion": "Connection Series",
+      "edicion": "Connection"
+    },
+    {
+      "nombre": "Batabatchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/connection/character/batabatchi.png"],
+      "especie": "Standard",
+      "año": 2024,
+      "generacion": "Connection Series",
+      "edicion": "Connection"
+    },
+    {
+      "nombre": "Nikatchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/connection/character/nikatchi.png"],
+      "especie": "Standard",
+      "año": 2024,
+      "generacion": "Connection Series",
+      "edicion": "Connection"
+    },
+    {
+      "nombre": "Pirorirotchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/connection/character/pirorirotchi.png"],
+      "especie": "Standard",
+      "año": 2024,
+      "generacion": "Connection Series",
+      "edicion": "Connection"
+    },
+    {
+      "nombre": "Hikotchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/connection/character/hikotchi.png"],
+      "especie": "Standard",
+      "año": 2024,
+      "generacion": "Connection Series",
+      "edicion": "Connection"
+    },
+    {
+      "nombre": "Hinatchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/connection/character/hinatchi.png"],
+      "especie": "Standard",
+      "año": 2024,
+      "generacion": "Connection Series",
+      "edicion": "Connection"
+    },
+    {
+      "nombre": "Youngmimitchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/connection/character/youngmimitchi.png"],
+      "especie": "Standard",
+      "año": 2024,
+      "generacion": "Connection Series",
+      "edicion": "Connection"
+    },
+    {
+      "nombre": "Hinotamatchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/connection/character/hinotamatchi.png"],
+      "especie": "Standard",
+      "año": 2024,
+      "generacion": "Connection Series",
+      "edicion": "Connection"
+    },
+    {
+      "nombre": "Pyonkotchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/connection/character/pyonkotchi.png"],
+      "especie": "Standard",
+      "año": 2024,
+      "generacion": "Connection Series",
+      "edicion": "Connection"
+    },
+    {
+      "nombre": "Billotchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/connection/character/billotchi.png"],
+      "especie": "Standard",
+      "año": 2024,
+      "generacion": "Connection Series",
+      "edicion": "Connection"
+    },
+    {
+      "nombre": "Paparatchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/connection/character/paparatchi.png"],
+      "especie": "Standard",
+      "año": 2024,
+      "generacion": "Connection Series",
+      "edicion": "Connection"
+    },
+    {
+      "nombre": "Mimiyoritchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/connection/character/mimiyoritchi.png"],
+      "especie": "Standard",
+      "año": 2024,
+      "generacion": "Connection Series",
+      "edicion": "Connection"
+    },
+    {
+      "nombre": "Hanatchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/connection/character/hanatchi.png"],
+      "especie": "Standard",
+      "año": 2024,
+      "generacion": "Connection Series",
+      "edicion": "Connection"
+    },
+    {
+      "nombre": "Tsunotchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/connection/character/tsunotchi.png"],
+      "especie": "Standard",
+      "año": 2024,
+      "generacion": "Connection Series",
+      "edicion": "Connection"
+    },
+    {
+      "nombre": "Megatchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/connection/character/megatchi.png"],
+      "especie": "Standard",
+      "año": 2024,
+      "generacion": "Connection Series",
+      "edicion": "Connection"
+    },
+     {
+      "nombre": "Dekotchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/connection/character/dekotchi.png"],
+      "especie": "Standard",
+      "año": 2024,
+      "generacion": "Connection Series",
+      "edicion": "Connection"
+    },
+    {
+      "nombre": "Hidatchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/connection/character/hidatchi.png"],
+      "especie": "Standard",
+      "año": 2024,
+      "generacion": "Connection Series",
+      "edicion": "Connection"
+    },
+    {
+      "nombre": "Debatchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/connection/character/debatchi.png"],
+      "especie": "Standard",
+      "año": 2024,
+      "generacion": "Connection Series",
+      "edicion": "Connection"
+    },
+    {
+      "nombre": "Bunbutchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/connection/character/bunbutchi.png"],
+      "especie": "Standard",
+      "año": 2024,
+      "generacion": "Connection Series",
+      "edicion": "Connection"
+    },
+    {
+      "nombre": "Pipotchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/connection/character/pipotchi.png"],
+      "especie": "Standard",
+      "año": 2024,
+      "generacion": "Connection Series",
+      "edicion": "Connection"
+    },
+    {
+      "nombre": "Drotchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/connection/character/drotchi.png"],
+      "especie": "Standard",
+      "año": 2024,
+      "generacion": "Connection Series",
+      "edicion": "Connection"
+    },
+    {
+      "nombre": "Bill",
+      "imagen": ["https://tamagotchi-official.com/gb/series/connection/character/bill.png"],
+      "especie": "Standard",
+      "año": 2024,
+      "generacion": "Connection Series",
+      "edicion": "Connection"
+    },
+    {
+      "nombre": "Robotchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/connection/character/robotchi.png"],
+      "especie": "Standard",
+      "año": 2024,
+      "generacion": "Connection Series",
+      "edicion": "Connection"
+    },
+    {
+      "nombre": "Wooltchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/connection/character/wooltchi.png"],
+      "especie": "Standard",
+      "año": 2024,
+      "generacion": "Connection Series",
+      "edicion": "Connection"
+    },
+    {
+      "nombre": "Teketchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/connection/character/teketchi.png"],
+      "especie": "Standard",
+      "año": 2024,
+      "generacion": "Connection Series",
+      "edicion": "Connection"
+    },
+     {
+      "nombre": "Gozarutchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/connection/character/gozarutchi.png"],
+      "especie": "Standard",
+      "año": 2024,
+      "generacion": "Connection Series",
+      "edicion": "Connection"
+    },
+    {
+      "nombre": "Warusotchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/connection/character/warusotchi.png"],
+      "especie": "Standard",
+      "año": 2024,
+      "generacion": "Connection Series",
+      "edicion": "Connection"
+    },
+    {
+      "nombre": "Sekitoritchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/connection/character/sekitoritchi.png"],
+      "especie": "Standard",
+      "año": 2024,
+      "generacion": "Connection Series",
+      "edicion": "Connection"
+    },
+    {
+      "nombre": "Oyajitchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/connection/character/oyajitchi.png"],
+      "especie": "Standard",
+      "año": 2024,
+      "generacion": "Connection Series",
+      "edicion": "Connection"
+    },
+    {
+      "nombre": "Ojitchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/connection/character/ojitchi.png"],
+      "especie": "Standard",
+      "año": 2024,
+      "generacion": "Connection Series",
+      "edicion": "Connection"
+    },
+    {
+      "nombre": "Otokitchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/connection/character/otokitchi.png"],
+      "especie": "Standard",
+      "año": 2024,
+      "generacion": "Connection Series",
+      "edicion": "Connection"
+    },
+    {
+      "nombre": "Babymarutchi",
+      "imagen": "./img/TAMAS/123.png",
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Land kid",
+      "imagen": "./img/TAMAS/124.png",
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Water kid",
+      "imagen": "./img/TAMAS/125.png",
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Sky kid",
+      "imagen": "./img/TAMAS/126.png",
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Roar young",
+      "imagen": "./img/TAMAS/127.png",
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Toodle young",
+      "imagen": "./img/TAMAS/128.png",
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Lick young",
+      "imagen": "./img/TAMAS/129.png",
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Sprint young",
+      "imagen": "./img/TAMAS/130.png",
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Glide young",
+      "imagen": "./img/TAMAS/131.png",
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Leap young",
+      "imagen": ["https://tamagotchi-official.com/gb/series/paradise/character/leap-young.png"],
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+     {
+      "nombre": "Paddle young",
+      "imagen": ["https://tamagotchi-official.com/gb/series/paradise/character/paddle-young.png"],
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Float yooung",
+      "imagen": ["https://tamagotchi-official.com/gb/series/paradise/character/float-yooung.png"],
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Chirp young",
+      "imagen": ["https://tamagotchi-official.com/gb/series/paradise/character/chirp-young.png"],
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Flap ypung",
+      "imagen": ["https://tamagotchi-official.com/gb/series/paradise/character/flap-ypung.png"],
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Bumble young",
+      "imagen": ["https://tamagotchi-official.com/gb/series/paradise/character/bumble-young.png"],
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Rocky young",
+      "imagen": ["https://tamagotchi-official.com/gb/series/paradise/character/rocky-young.png"],
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Bbmarutchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/paradise/character/bbmarutchi.png"],
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Meowtchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/paradise/character/meowtchi.png"],
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Pochitchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/paradise/character/pochitchi.png"],
+      "especie": "Tama Collection",
+      "año": 1997,
+      "generacion": "Original Series",
+      "edicion": "Original"
+    },
+    {
+      "nombre": "Gumax",
+      "imagen": ["https://tamagotchi-official.com/gb/series/paradise/character/gumax.png"],
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Ratchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/paradise/character/ratchi.png"],
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Mametchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/paradise/character/mametchi.png"],
+      "especie": "Standard",
+      "año": 1996,
+      "generacion": "Original Series",
+      "edicion": "Original"
+    },
+    {
+      "nombre": "Mimitchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/paradise/character/mimitchi.png"],
+      "especie": "Standard",
+      "año": 1997,
+      "generacion": "Original Series",
+      "edicion": "Original"
+    },
+    {
+      "nombre": "Molmotchi",
+      "imagen": ["https://tamagotchi-official.com/tamagotchi/jp/character/2025/05/07/DvadlXqg0ZBdOXtn/24_%E3%82%82%E3%82%8B%E3%82%82%E3%81%A3%E3%81%A1_LAND.png?_=75688d44ef6d0ee3567bb6732dff9011"],
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Sheeptchi",
+      "imagen": ["https://tamagotchi-official.com/tamagotchi/jp/character/2025/05/07/jLinpuRt1qCFf3sq/25_%E3%81%97%E3%81%84%E3%81%B7%E3%81%A3%E3%81%A1_LAND.png?_=75688d44ef6d0ee3567bb6732dff9011"],
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Leopatchi",
+      "imagen": ["https://tamagotchi-official.com/tamagotchi/jp/character/2025/05/07/ZnumsA1WsifxX0tf/27_%E3%82%8C%E3%81%8A%E3%81%B1%E3%81%A3%E3%81%A1_LAND.png?_=75688d44ef6d0ee3567bb6732dff9011"],
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Sebiretchi",
+      "imagen": ["https://tamagotchi-official.com/tamagotchi/jp/character/2025/05/07/KuWAt1v3t3AtQJ3V/26_%E3%81%9B%E3%81%B3%E3%82%8C%E3%81%A3%E3%81%A1_LAND.png?_=75688d44ef6d0ee3567bb6732dff9011"],
+      "especie": "Standard",
+      "año": 2023,
+      "generacion": "Uni Series",
+      "edicion": "Uni"
+    },
+    {
+      "nombre": "Elizardotchi",
+      "imagen": ["https://tamagotchi-official.com/tamagotchi/jp/character/2025/05/07/jjHJqwUaVBXYqSsp/28_%E3%81%88%E3%82%8A%E3%81%96%E3%83%BC%E3%81%A9%E3%81%A3%E3%81%A1_LAND.png?_=e30e492dfcecd15b0026f81b48f34e7f"],
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Heavytchi",
+      "imagen": ["https://tamagotchi-official.com/tamagotchi/jp/character/2025/05/07/8i2HAcMd8NCEaSMZ/29_%E3%81%B8%E3%81%B3%E3%83%BC%E3%81%A3%E3%81%A1_LAND.png?_=e30e492dfcecd15b0026f81b48f34e7f"],
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Furawatchi",
+      "imagen": ["https://tamagotchi-official.com/tamagotchi/jp/character/2025/05/07/8i2HAcMd8NCEaSMZ/29_%E3%81%B8%E3%81%B3%E3%83%BC%E3%81%A3%E3%81%A1_LAND.png?_=e30e492dfcecd15b0026f81b48f34e7f"],
+      "especie": "Standard",
+      "año": 2021,
+      "generacion": "Tamagotchi Series",
+      "edicion": "Tamagotchi"
+    },
+     {
+      "nombre": "Postsunentchi",
+      "imagen": ["https://tamagotchi-official.com/tamagotchi/jp/character/2025/05/07/6f2DguxlswhUDXYG/32_%E3%81%BD%E3%81%A4%E3%81%AD%E3%82%93%E3%81%A3%E3%81%A1_LAND.png?_=e30e492dfcecd15b0026f81b48f34e7f"],
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Tustustchi",
+      "imagen": ["https://tamagotchi-official.com/tamagotchi/jp/character/2025/05/07/I427HRijd5crFM5Q/31_%E3%81%9F%E3%81%99%E3%81%9F%E3%81%99%E3%81%A3%E3%81%A1_LAND.png?_=e30e492dfcecd15b0026f81b48f34e7f"],
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Shigemi-san",
+      "imagen": ["https://tamagotchi-official.com/gb/series/paradise/character/shigemi-san.png"],
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Irukatchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/paradise/character/irukatchi.png"],
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Kametchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/paradise/character/kametchi.png"],
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Kujiratchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/paradise/character/kujiratchi.png"],
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Uruotchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/paradise/character/uruotchi.png"],
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Axolopatchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/paradise/character/axolopatchi.png"],
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Imoritchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/paradise/character/imoritchi.png"],
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Kawazutchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/paradise/character/kawazutchi.png"],
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Beavertchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/paradise/character/beavertchi.png"],
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Tachutchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/paradise/character/tachutchi.png"],
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Sharktchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/paradise/character/sharktchi.png"],
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Ankotchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/paradise/character/ankotchi.png"],
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Otototchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/paradise/character/otototchi.png"],
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Kuraratchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/paradise/character/kuraratchi.png"],
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Mendakotchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/paradise/character/mendakotchi.png"],
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Amefuratchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/paradise/character/amefuratchi.png"],
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Gusokutchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/paradise/character/gusokutchi.png"],
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Horhotchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/paradise/character/horhotchi.png"],
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+     {
+      "nombre": "Mongatchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/paradise/character/mongatchi.png"],
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Eagletchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/paradise/character/eagletchi.png"],
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Batchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/paradise/character/batchi.png"],
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Papillotchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/paradise/character/papillotchi.png"],
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Kabutotchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/paradise/character/kabutotchi.png"],
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Tentotchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/paradise/character/tentotchi.png"],
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Hatchitchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/paradise/character/hatchitchi.png"],
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Peacotchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/paradise/character/peacotchi.png"],
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Batatchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/paradise/character/batatchi.png"],
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Kuchipatchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/paradise/character/kuchipatchi.png"],
+      "especie": "Standard",
+      "año": 1996,
+      "generacion": "Original Series",
+      "edicion": "Original"
+    },
+    {
+      "nombre": "Kiwitchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/paradise/character/kiwitchi.png"],
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Gemtchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/paradise/character/gemtchi.png"],
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Oretatchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/paradise/character/oretatchi.png"],
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Ishikorotchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/paradise/character/ishikorotchi.png"],
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Magmatchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/paradise/character/magmatchi.png"],
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Chodracotchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/paradise/character/chodracotchi.png"],
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Mermarintchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/paradise/character/mermarintchi.png"],
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Yayacorntchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/paradise/character/yayacorntchi.png"],
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Konkotchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/paradise/character/konkotchi.png"],
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Tigaotchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/paradise/character/tigaotchi.png"],
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Tanoontchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/paradise/character/tanoontchi.png"],
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Lessapantchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/paradise/character/lessapantchi.png"],
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Kanokotchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/paradise/character/kanokotchi.png"],
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Suigyutchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/paradise/character/suigyutchi.png"],
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Panbootchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/paradise/character/panbootchi.png"],
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Kachitchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/paradise/character/kachitchi.png"],
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Tokipatchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/paradise/character/tokipatchi.png"],
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Sparrotchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/paradise/character/sparrotchi.png"],
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Shiitaketchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/paradise/character/shiitaketchi.png"],
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Peatchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/paradise/character/peatchi.png"],
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Nappatchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/paradise/character/nappatchi.png"],
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Rushraditchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/paradise/character/rushraditchi.png"],
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    },
+    {
+      "nombre": "Forest Horthotchi",
+      "imagen": ["https://tamagotchi-official.com/gb/series/paradise/character/forest-horthotchi.png"],
+      "especie": "Standard",
+      "año": 2025,
+      "generacion": "Paradise World",
+      "edicion": "Paradise"
+    }
+  ]
+}
