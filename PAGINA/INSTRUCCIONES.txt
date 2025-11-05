@@ -1,0 +1,1 @@
+Abrir tamapi.js en una instancia de Visual Studio Code y abrir PRUEBA_02 en otra. las tarjetas de la primera sección deberían salir con la información actualizada.
