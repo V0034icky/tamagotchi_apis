@@ -5,7 +5,6 @@ body {
   color: #0D0B1E;
 }
 
-/* ===== HEADER ===== */
 header {
   background-color: #fff;
   text-align: center;
@@ -22,7 +21,6 @@ header {
 .tama-header { height: 300px; max-width: 100%; }
 .logo { height: 400px; margin-top: 10px; }
 
-/* ===== BOTONES HEADER ===== */
 .header-nav {
   display: flex;
   justify-content: center;
@@ -49,7 +47,6 @@ header {
 .btn-header.nuevos { background-color: #FFD97D; }
 .btn-header.catalogo { background-color: #6BE1FF; }
 
-/* ===== TÍTULOS ===== */
 .titulo-seccion {
   font-family: 'Changa One', cursive;
   color: #0D0B1E;
@@ -58,16 +55,15 @@ header {
   font-size: 2.8rem;
 }
 
-/* ===== CONTENEDORES ===== */
 .contenedor {
-  position: relative;           /* necesario para que .barra-superior se posicione dentro */
+  position: relative;
   margin: 0 auto;
   width: 85%;
   border-radius: 25px;
   padding: 25px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   max-height: 700px;
-  overflow: hidden;             /* ocultamos el scroll general */
+  overflow: hidden;
   border: 2px solid #0D0B1E;
   display: flex;
   flex-direction: column;
@@ -78,7 +74,6 @@ header {
 .cont-nuevos { background-color: #F5E5BC; }
 .cont-catalogo { background-color: #B2E8F6; }
 
-/* ===== BARRA SUPERIOR ===== */
 .barra-superior {
   position: sticky;
   top: 0;
@@ -86,11 +81,10 @@ header {
   z-index: 10;
   padding-bottom: 10px;
   padding-top: 5px;
-
-  display: flex;                  /* 🟢 importante */
-  justify-content: space-between; /* separa filtros e input */
-  align-items: center;            /* los centra verticalmente */
-  flex-wrap: wrap;                /* evita que se amontonen */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
   gap: 10px;
 }
 
@@ -124,7 +118,6 @@ header {
 .cont-nuevos .filtros button { background-color: #FFD97D; }
 .cont-catalogo .filtros button { background-color: #6BE1FF; }
 
-/* ===== TARJETAS ===== */
 .tarjeta {
   position: relative;
   width: 310px;
@@ -142,8 +135,8 @@ header {
   width: 280px;
 }
 .tarjetas-wrapper {
-  flex: 1;                      /* ocupa el resto del espacio */
-  overflow-y: auto;             /* aquí está el scroll */
+  flex: 1;
+  overflow-y: auto;
   padding: 10px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -160,8 +153,6 @@ header {
   border-radius: 10px;
 }
 
-
-/* CONTENIDO TARJETA */
 .contenido-tarjeta {
   position: absolute;
   inset: 0;
@@ -184,7 +175,6 @@ header {
   object-fit: contain;
 }
 
-
 .info-tarjeta {
   display: flex;
   justify-content: space-between;
@@ -198,7 +188,6 @@ header {
 .especie { line-height: 1.2; margin-bottom: 10px; }
 .gen, .anio, .edicion { font-size: 0.95rem; margin-bottom: 5px; }
 
-/* ===== BOTONES TARJETAS ===== */
 .botones-tarjeta {
   display: flex;
   justify-content: center;
@@ -216,12 +205,11 @@ header {
   transition: transform 0.2s ease, filter 0.2s ease;
 }
 
-/* Colores según el contenedor */
 .cont-base .btn-tarjeta.agregar { background-color: #FF6EF0; }
 .cont-mis .btn-tarjeta.eliminar { background-color: #7AE89A; }
 .cont-favoritos .btn-tarjeta.eliminar { background-color: #A47CFF; }
 .cont-nuevos .btn-tarjeta,
-.cont-catalogo .btn-tarjeta { background-color: #FFD97D; } /* Por si luego las usas */
+.cont-catalogo .btn-tarjeta { background-color: #FFD97D; }
 
 .btn-tarjeta:hover {
   transform: scale(1.05);
@@ -230,14 +218,12 @@ header {
 
 btn-tarjeta:hover { transform: scale(1.05); filter: brightness(1.1); }
 
-/* FONDOS TARJETAS */
 .tarjeta-rosa { background-image: url("../img/TARJETA-ROSA.png"); }
 .tarjeta-verde { background-image: url("../img/TARJETA-VERDE.png"); }
 .tarjeta-morada { background-image: url("../img/TARJETA-MORADA.png"); }
 .tarjeta-amarilla { background-image: url("../img/TARJETA-AMARILLA.png"); }
 .tarjeta-azul { background-image: url("../img/TARJETA-AZUL.png"); }
 
-/* ===== CORAZÓN ===== */
 .corazon {
   position: absolute;
   top: 15px;
@@ -254,9 +240,8 @@ btn-tarjeta:hover { transform: scale(1.05); filter: brightness(1.1); }
   transform: scale(1.2);
 }
 
-/* ===== FOOTER ===== */
 footer {
-  background-color: #fff; /* fondo blanco */
+  background-color: #fff;
   color: #0D0B1E;
   padding: 40px 60px;
   border-top-left-radius: 30px;
@@ -272,12 +257,11 @@ footer {
   flex-wrap: wrap;
 }
 
-/* LOGOS centrados verticalmente */
 .footer-logos {
   display: flex;
   flex-direction: column;
-  align-items: center;   /* centra horizontalmente */
-  justify-content: center; /* centra verticalmente dentro del bloque */
+  align-items: center;
+  justify-content: center;
   gap: 10px;
 }
 
@@ -285,21 +269,20 @@ footer {
   height: 120px;
   width: auto;
   display: block;
-  margin: 0 auto; /* asegura el centrado horizontal */
+  margin: 0 auto;
 }
 
 .logo-footer {
   height: 150px;
   width: auto;
   display: block;
-  margin: 0 auto; /* asegura el centrado horizontal */
+  margin: 0 auto;
 }
 
-/* LINKS (no se mueven) */
 .footer-nav {
   display: flex;
   flex-direction: column;
-  align-items: flex-start; /* izquierda */
+  align-items: flex-start;
   justify-content: flex-start;
   gap: 12px;
 }
@@ -317,7 +300,6 @@ footer {
   transform: translateX(5px);
 }
 
-/* RESPONSIVO */
 @media (max-width: 768px) {
   .footer-contenido {
     flex-direction: column;
