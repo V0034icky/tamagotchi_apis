@@ -1,0 +1,51 @@
+{
+  "coleccion": [
+    {
+      "id": 1,
+      "nombre": "Sky kid",
+      "especie": "Standard",
+      "generacion": "Paradise World",
+      "año": 2025,
+      "edicion": "Paradise",
+      "imagen": "./img/TAMAS/126.png"
+    },
+    {
+      "id": 2,
+      "nombre": "Glide young",
+      "especie": "Standard",
+      "generacion": "Paradise World",
+      "año": 2025,
+      "edicion": "Paradise",
+      "imagen": "./img/TAMAS/131.png"
+    },
+    {
+      "id": 3,
+      "nombre": "Molmotchi",
+      "especie": "Standard",
+      "generacion": "Paradise World",
+      "año": 2025,
+      "edicion": "Paradise",
+      "imagen": [
+        "https://tamagotchi-official.com/tamagotchi/jp/character/2025/05/07/DvadlXqg0ZBdOXtn/24_%E3%82%82%E3%82%8B%E3%82%82%E3%81%A3%E3%81%A1_LAND.png?_=75688d44ef6d0ee3567bb6732dff9011"
+      ]
+    },
+    {
+      "id": 4,
+      "nombre": "Lick young",
+      "especie": "Standard",
+      "generacion": "Paradise World",
+      "año": 2025,
+      "edicion": "Paradise",
+      "imagen": "./img/TAMAS/129.png"
+    },
+    {
+      "id": 5,
+      "nombre": "Mametchi",
+      "especie": "Standard",
+      "generacion": "GEN 1",
+      "año": 1996,
+      "edicion": "Original",
+      "imagen": "./img/TAMAS/000.png"
+    }
+  ]
+}
