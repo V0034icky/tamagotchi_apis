@@ -20,7 +20,6 @@ const server = http.createServer((request, response) => {
                 return 0;
             }
 
-            // Si pides una imagen (por ejemplo, /img/PLACEHOLDER.png)
             fs.readFile("./PRUEBA_02" + request.url, (err, file) => {
                 if (err) {
                     response.statusCode = 404;
@@ -48,3 +47,4 @@ const server = http.createServer((request, response) => {
 server.listen(puerto, () => {
     console.log("Servidor Tamagotchi escuchando en http://localhost:" + puerto);
 });
+
