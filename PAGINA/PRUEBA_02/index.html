@@ -5,9 +5,12 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Tamagotchis</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Changa+One&family=Inter:wght@400;600&display=swap"
     rel="stylesheet" />
+  <link rel="stylesheet" href="css/filtros.css">
   <link rel="stylesheet" href="css/index.css" />
+  <link rel="stylesheet" href="css/corazon.css">
 </head>
 
 <body>
@@ -81,7 +84,7 @@
 
         <div class="tarjetas-wrapper">
           <div class="tarjeta tarjeta-verde">
-            <button class="corazon"></button>
+            <i class="fa-solid fa-heart heart-icon"></i>
             <div class="contenido-tarjeta">
               <h3 class="nombre-tamagotchi">Nombre</h3>
               <img src="img/PLACEHOLDER.png" alt="Imagen Tamagotchi" class="img-tamagotchi" />
@@ -121,7 +124,7 @@
 
         <div class="tarjetas-wrapper">
           <div class="tarjeta tarjeta-morada">
-            <button class="corazon activo"></button>
+            <i class="fa-solid fa-heart heart-icon"></i>
             <div class="contenido-tarjeta">
               <h3 class="nombre-tamagotchi">Nombre</h3>
               <img src="img/PLACEHOLDER.png" alt="Imagen Tamagotchi" class="img-tamagotchi" />
@@ -219,32 +222,26 @@
 
   <!-- FOOTER -->
   <footer>
-  <div class="footer-contenido">
-    <div class="footer-logos">
-      <img src="img/tama-header.png" alt="Tamagotchi footer" class="tama-footer" />
-      <img src="img/logo-chido.png" alt="Logo Tamagotchi" class="logo-footer" />
+    <div class="footer-contenido">
+      <div class="footer-logos">
+        <img src="img/tama-header.png" alt="Tamagotchi footer" class="tama-footer" />
+        <img src="img/logo-chido.png" alt="Logo Tamagotchi" class="logo-footer" />
+      </div>
+
+      <nav class="footer-nav">
+        <a href="#base">Base Oficial</a>
+        <a href="#mis">Mis Tamagotchis</a>
+        <a href="#favoritos">Favoritos</a>
+        <a href="#nuevos">Nuevos</a>
+        <a href="#catalogo">Catálogo</a>
+        <a href="login.html">Iniciar Sesión</a>
+      </nav>
     </div>
-
-    <nav class="footer-nav">
-      <a href="#base">Base Oficial</a>
-      <a href="#mis">Mis Tamagotchis</a>
-      <a href="#favoritos">Favoritos</a>
-      <a href="#nuevos">Nuevos</a>
-      <a href="#catalogo">Catálogo</a>
-      <a href="login.html">Iniciar Sesión</a>
-    </nav>
-  </div>
-</footer>
-
-  <script>
-    document.querySelectorAll(".corazon").forEach(corazon => {
-      corazon.addEventListener("click", () => {
-        corazon.classList.toggle("activo");
-      });
-    });
-  </script>
+  </footer>
 
   <script src="js/index.js"></script>
+  <script src="js/filtros.js"></script>
+  <script src="js/estilo.js"></script>
 </body>
 
 </html>
