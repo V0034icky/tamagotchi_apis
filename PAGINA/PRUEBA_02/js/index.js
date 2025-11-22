@@ -30,7 +30,6 @@ function cargarColeccion() {
 
           const tama = lista[i];
 
-          // ====== RELLENAR TARJETA ======
           clon.querySelector(".nombre-tamagotchi").innerHTML = tama.nombre;
           clon.querySelector(".img-tamagotchi").src = tama.imagen || "img/PLACEHOLDER.png";
           clon.querySelector(".especie").innerHTML = "<strong>Especie:</strong><br>" + tama.especie;
@@ -38,7 +37,6 @@ function cargarColeccion() {
           clon.querySelector(".anio").innerHTML = "<strong>Año:</strong> " + tama.año;
           clon.querySelector(".edicion").innerHTML = "<strong>Edición:</strong> " + tama.edicion;
 
-          // ====== AGREGAR FAVORITOS (CORAZÓN) ======
           const iconoFavorito = clon.querySelector(".heart-icon");
 
           iconoFavorito.addEventListener("click", function () {
@@ -60,14 +58,14 @@ function cargarColeccion() {
             }).then(r => {
               if (r.status == 200) {
                 r.json().then(() => {
-                  cargarFavoritos();  // Recargar solo la sección de favoritos
+                  cargarFavoritos();
                 });
               }
             });
 
-          }); // FIN EVENTO CLICK FAVORITOS
+          });
 
-        } // FIN FOR
+        }
 
       });
     }
@@ -221,4 +219,7 @@ fetch("http://localhost:3000/base").then(respuesta => {
 
 cargarColeccion();
 cargarCatalogo();
+
 cargarFavoritos();
+
+//nuevo sin notas. el otro está hecho un despapaye
