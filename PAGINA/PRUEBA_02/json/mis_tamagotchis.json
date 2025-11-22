@@ -64,6 +64,28 @@
       "año": 2025,
       "edicion": "Paradise",
       "imagen": "./img/TAMAS/128.png"
+    },
+    {
+      "id": 8,
+      "nombre": "Simasimatchi",
+      "especie": "Standard",
+      "generacion": "Uni Series",
+      "año": 2023,
+      "edicion": "Uni",
+      "imagen": [
+        "https://tamagotchi-official.com/gb/series/uni/character/simasimatchi.png"
+      ]
+    },
+    {
+      "id": 9,
+      "nombre": "Kikitchi",
+      "especie": "Standard",
+      "generacion": "Uni Series",
+      "año": 2023,
+      "edicion": "Uni",
+      "imagen": [
+        "https://tamagotchi-official.com/gb/series/uni/character/kikitchi.png"
+      ]
     }
   ]
 }

@@ -34,6 +34,15 @@ const server = http.createServer((request, response) => {
                 return;
             }
 
+            if (request.url === "/favoritos") {
+                const favoritos = JSON.parse(fs.readFileSync("./PRUEBA_02/json/tamas_favoritos.json").toString());
+                response.statusCode = 200;
+                response.setHeader("Content-Type", "application/json");
+                response.end(JSON.stringify(favoritos));
+                return;
+            }
+
+
             fs.readFile("./PRUEBA_02" + request.url, (err, file) => {
                 if (err) {
                     response.statusCode = 404;
@@ -75,9 +84,47 @@ const server = http.createServer((request, response) => {
                 });
             });
             break;
-        
+
         case "PUT":
+            if (request.url === "/favoritos") {
+                let cuerpoFav = "";
+
+                request.on("data", parte => cuerpoFav += parte);
+
+                request.on("end", () => {
+                    const nuevoFav = JSON.parse(cuerpoFav);
+
+                    // Leer archivo de favoritos
+                    let favoritos = JSON.parse(fs.readFileSync("./PRUEBA_02/json/tamas_favoritos.json").toString());
+
+                    // Revisar si ya existe (evita duplicados)
+                    let existe = false;
+                    for (let i = 0; i < favoritos.favoritos.length; i++) {
+                        if (favoritos.favoritos[i].nombre == nuevoFav.nombre) {
+                            existe = true;
+                        }
+                    }
+
+                    if (existe == false) {
+                        favoritos.favoritos.push(nuevoFav);
+                    }
+
+                    fs.writeFile("./PRUEBA_02/json/tamas_favoritos.json", JSON.stringify(favoritos, null, 2), err => {
+                        if (err) {
+                            response.statusCode = 500;
+                            response.end(JSON.stringify({ mensaje: "Error al guardar en favoritos" }));
+                        } else {
+                            response.statusCode = 200;
+                            response.setHeader("Content-Type", "application/json");
+                            response.end(JSON.stringify({ mensaje: "Agregado a Favoritos" }));
+                        }
+                    });
+                });
+
+                return;
+            }
             break;
+
 
         case "OPTIONS":
             response.writeHead(204);

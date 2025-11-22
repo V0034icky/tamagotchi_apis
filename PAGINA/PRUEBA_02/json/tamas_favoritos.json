@@ -1,0 +1,22 @@
+{
+  "favoritos": [
+    {
+      "id": 6,
+      "nombre": "Glide young",
+      "especie": "Standard",
+      "generacion": "Paradise World",
+      "año": 2025,
+      "edicion": "Paradise",
+      "imagen": "./img/TAMAS/131.png"
+    },
+    {
+      "id": 7,
+      "nombre": "Toodle young",
+      "especie": "Standard",
+      "generacion": "Paradise World",
+      "año": 2025,
+      "edicion": "Paradise",
+      "imagen": "./img/TAMAS/128.png"
+    }
+  ]
+}
