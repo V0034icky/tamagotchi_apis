@@ -1,0 +1,13 @@
+{
+  "favoritos": [
+    {
+      "id": 12,
+      "nombre": "Sprint young",
+      "especie": "Standard",
+      "generacion": "Paradise World",
+      "año": 2025,
+      "edicion": "Paradise",
+      "imagen": "./img/TAMAS/130.png"
+    }
+  ]
+}

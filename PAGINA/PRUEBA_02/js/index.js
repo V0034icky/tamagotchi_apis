@@ -1,45 +1,285 @@
 const ColeccionTamagotchis = document.querySelector("#base .tarjetas-wrapper");
-const plantilla_tarjeta = ColeccionTamagotchis.querySelector(".tarjeta");
-plantilla_tarjeta.remove();
+const plantilla_tarjeta_base = ColeccionTamagotchis.querySelector(".tarjeta");
+plantilla_tarjeta_base.remove();
 
-fetch("http://localhost:3000/")
-    .then(respuesta => respuesta.json())
-    .then(archivo => {
-        const lista_tamagotchis = archivo.resultados || archivo.arreglo || [];
+const MisTamagotchis = document.querySelector("#mis .tarjetas-wrapper");
+const plantilla_tarjeta_mis = MisTamagotchis.querySelector(".tarjeta");
+plantilla_tarjeta_mis.remove();
 
-        for (let i = 0; i < lista_tamagotchis.length; i++) {
-            const clon = plantilla_tarjeta.cloneNode(true);
-            ColeccionTamagotchis.appendChild(clon);
+const CatalogoGeneral = document.querySelector("#catalogo .tarjetas-wrapper");
+const plantilla_tarjeta_catalogo = CatalogoGeneral.querySelector(".tarjeta");
+plantilla_tarjeta_catalogo.remove();
 
-            const tamagotchi = lista_tamagotchis[i];
+const FavoritosWrapper = document.querySelector("#favoritos .tarjetas-wrapper");
+const plantilla_tarjeta_favoritos = FavoritosWrapper.querySelector(".tarjeta");
+plantilla_tarjeta_favoritos.remove();
 
-            const nombre = clon.querySelector(".nombre-tamagotchi");
-            nombre.innerHTML = tamagotchi.nombre || "Desconocido";
 
-            const imagen = clon.querySelector(".img-tamagotchi");
-            let rutaImagen = Array.isArray(tamagotchi.imagen) ? tamagotchi.imagen[0] : tamagotchi.imagen;
+function cargarColeccion() {
+  MisTamagotchis.innerHTML = "";
 
-            if (rutaImagen && rutaImagen.startsWith("http")) {
-                imagen.src = rutaImagen;
-            } else if (rutaImagen && rutaImagen !== "") {
-                imagen.src = "http://localhost:3000/" + rutaImagen;
-            } else {
-                imagen.src = "img/PLACEHOLDER.png";
-            }
+  fetch("http://localhost:3000/coleccion").then(respuesta => {
+    if (respuesta.status == 200) {
+      respuesta.json().then(data => {
+        const lista = data.coleccion;
 
-            const especie = clon.querySelector(".especie");
-            especie.innerHTML = `<strong>Especie:</strong><br>${tamagotchi.especie || "Standard"}`;
+        for (let i = 0; i < lista.length; i++) {
 
-            const generacion = clon.querySelector(".gen");
-            generacion.innerHTML = `<strong>${tamagotchi.generacion || "?"}</strong>`;
+          const clon = plantilla_tarjeta_mis.cloneNode(true);
+          MisTamagotchis.appendChild(clon);
 
-            const anio = clon.querySelector(".anio");
-            anio.innerHTML = `<strong>Año:</strong> ${tamagotchi.año || "Desconocido"}`;
+          const tama = lista[i];
 
-            const edicion = clon.querySelector(".edicion");
-            edicion.innerHTML = `<strong>Edición:</strong> ${tamagotchi.edicion || "Base"}`;
+          clon.querySelector(".nombre-tamagotchi").innerHTML = tama.nombre;
+          clon.querySelector(".img-tamagotchi").src = tama.imagen || "img/PLACEHOLDER.png";
+          clon.querySelector(".especie").innerHTML = "<strong>Especie:</strong><br>" + tama.especie;
+          clon.querySelector(".gen").innerHTML = "<strong>" + tama.generacion + "</strong>";
+          clon.querySelector(".anio").innerHTML = "<strong>Año:</strong> " + tama.año;
+          clon.querySelector(".edicion").innerHTML = "<strong>Edición:</strong> " + tama.edicion;
+
+          const iconoFavorito = clon.querySelector(".heart-off");
+
+          iconoFavorito.addEventListener("click", function () {
+
+            const objetoFavorito = {
+              id: tama.id,
+              nombre: tama.nombre,
+              especie: tama.especie,
+              generacion: tama.generacion,
+              año: tama.año,
+              edicion: tama.edicion,
+              imagen: tama.imagen
+            };
+
+            fetch("http://localhost:3000/favoritos", {
+              method: "PUT",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify(objetoFavorito)
+            }).then(r => {
+              if (r.status == 200) {
+                r.json().then(() => {
+                  cargarFavoritos();
+                });
+              }
+            });
+          });
+
+          const botonEliminar = clon.querySelector(".btn-tarjeta.eliminar");
+
+          botonEliminar.addEventListener("click", () => {
+
+            fetch("http://localhost:3000/coleccion?nombre=" + encodeURIComponent(tama.nombre), {
+              method: "DELETE"
+            }).then(r => {
+              if (r.status == 200) {
+                r.json().then(() => {
+
+                  fetch("http://localhost:3000/favoritos?nombre=" + encodeURIComponent(tama.nombre), {
+                    method: "DELETE"
+                  }).then(() => {
+                    cargarColeccion();
+                    cargarFavoritos();
+                    cargarCatalogo();
+                  });
+
+                });
+              }
+            });
+          });
+
         }
-    })
-    .catch(error => {
-        console.error("Error al obtener datos:", error);
+      });
+    }
+  });
+}
+
+
+function cargarCatalogo() {
+  CatalogoGeneral.innerHTML = "";
+
+  fetch("http://localhost:3000/base").then(r1 => {
+    if (r1.status == 200) {
+      r1.json().then(baseData => {
+        fetch("http://localhost:3000/coleccion").then(r2 => {
+          if (r2.status == 200) {
+            r2.json().then(coleccionData => {
+              const baseLista = baseData.resultados;
+              const misIDs = [];
+              for (let i = 0; i < coleccionData.coleccion.length; i++) {
+                misIDs.push(coleccionData.coleccion[i].nombre);
+              }
+
+              for (let i = 0; i < baseLista.length; i++) {
+                const clon = plantilla_tarjeta_catalogo.cloneNode(true);
+                CatalogoGeneral.appendChild(clon);
+
+                const tama = baseLista[i];
+                clon.querySelector(".nombre-tamagotchi").innerHTML = tama.nombre;
+
+                const imagen = clon.querySelector(".img-tamagotchi");
+                let ruta = Array.isArray(tama.imagen) ? tama.imagen[0] : tama.imagen;
+                if (ruta && ruta.startsWith("http")) {
+                  imagen.src = ruta;
+                } else if (ruta && ruta !== "") {
+                  imagen.src = "http://localhost:3000/" + ruta;
+                } else {
+                  imagen.src = "img/PLACEHOLDER.png";
+                }
+
+                clon.querySelector(".especie").innerHTML = "<strong>Especie:</strong><br>" + tama.especie;
+                clon.querySelector(".gen").innerHTML = "<strong>" + tama.generacion + "</strong>";
+                clon.querySelector(".anio").innerHTML = "<strong>Año:</strong> " + tama.año;
+                clon.querySelector(".edicion").innerHTML = "<strong>Edición:</strong> " + tama.edicion;
+
+                let estaEnColeccion = false;
+                for (let j = 0; j < misIDs.length; j++) {
+                  if (misIDs[j] == tama.nombre) {
+                    estaEnColeccion = true;
+                  }
+                }
+
+                if (estaEnColeccion == false) {
+                  const overlay = document.createElement("img");
+                  overlay.src = "../img/TARJETA-GRIS.png";
+                  overlay.classList.add("overlay-gris");
+                  clon.appendChild(overlay);
+                }
+              }
+            });
+          }
+        });
+      });
+    }
+  });
+}
+
+function cargarFavoritos() {
+  FavoritosWrapper.innerHTML = "";
+
+  fetch("http://localhost:3000/favoritos").then(r => {
+    if (r.status == 200) {
+      r.json().then(dataFav => {
+        const lista = dataFav.favoritos;
+
+        for (let i = 0; i < lista.length; i++) {
+          const clon = plantilla_tarjeta_favoritos.cloneNode(true);
+          FavoritosWrapper.appendChild(clon);
+
+          let tama = lista[i];
+
+          clon.querySelector(".nombre-tamagotchi").innerHTML = tama.nombre;
+          clon.querySelector(".img-tamagotchi").src = tama.imagen || "img/PLACEHOLDER.png";
+          clon.querySelector(".especie").innerHTML = "<strong>Especie:</strong><br>" + tama.especie;
+          clon.querySelector(".gen").innerHTML = "<strong>" + tama.generacion + "</strong>";
+          clon.querySelector(".anio").innerHTML = "<strong>Año:</strong> " + tama.año;
+          clon.querySelector(".edicion").innerHTML = "<strong>Edición:</strong> " + tama.edicion;
+
+          const iconoFavorito = clon.querySelector(".heart-on");
+
+          iconoFavorito.addEventListener("click", function () {
+
+            fetch("http://localhost:3000/favoritos?nombre=" + encodeURIComponent(tama.nombre), {
+              method: "DELETE"
+            }).then(r => {
+              if (r.status == 200) {
+                r.json().then(() => {
+                  cargarFavoritos();
+                });
+              }
+            });
+
+          });
+
+          const botonEliminar = clon.querySelector(".btn-tarjeta.eliminar");
+
+          botonEliminar.addEventListener("click", () => {
+
+            fetch("http://localhost:3000/coleccion?nombre=" + encodeURIComponent(tama.nombre), {
+              method: "DELETE"
+            }).then(r => {
+              if (r.status == 200) {
+                r.json().then(() => {
+
+                  fetch("http://localhost:3000/favoritos?nombre=" + encodeURIComponent(tama.nombre), {
+                    method: "DELETE"
+                  }).then(() => {
+                    cargarColeccion();
+                    cargarFavoritos();
+                    cargarCatalogo();
+                  });
+
+                });
+              }
+            });
+          });
+
+        }
+      });
+    }
+  });
+}
+
+
+
+
+fetch("http://localhost:3000/base").then(respuesta => {
+  if (respuesta.status == 200) {
+    respuesta.json().then(archivo => {
+      const lista = archivo.resultados;
+
+      for (let i = 0; i < lista.length; i++) {
+        const clon = plantilla_tarjeta_base.cloneNode(true);
+        ColeccionTamagotchis.appendChild(clon);
+
+        const tama = lista[i];
+        clon.querySelector(".nombre-tamagotchi").innerHTML = tama.nombre;
+
+        const imagen = clon.querySelector(".img-tamagotchi");
+        let rutaImagen = Array.isArray(tama.imagen) ? tama.imagen[0] : tama.imagen;
+        if (rutaImagen && rutaImagen.startsWith("http")) {
+          imagen.src = rutaImagen;
+        } else if (rutaImagen && rutaImagen !== "") {
+          imagen.src = "http://localhost:3000/" + rutaImagen;
+        } else {
+          imagen.src = "img/PLACEHOLDER.png";
+        }
+
+        clon.querySelector(".especie").innerHTML = "<strong>Especie:</strong><br>" + tama.especie;
+        clon.querySelector(".gen").innerHTML = "<strong>" + tama.generacion + "</strong>";
+        clon.querySelector(".anio").innerHTML = "<strong>Año:</strong> " + tama.año;
+        clon.querySelector(".edicion").innerHTML = "<strong>Edición:</strong> " + tama.edicion;
+
+        const botonAgregar = clon.querySelector(".btn-tarjeta.agregar");
+        if (botonAgregar != null) {
+          botonAgregar.addEventListener("click", () => {
+            const nuevoTama = {
+              nombre: tama.nombre,
+              especie: tama.especie,
+              generacion: tama.generacion,
+              año: tama.año,
+              edicion: tama.edicion,
+              imagen: tama.imagen
+            };
+
+            fetch("http://localhost:3000/coleccion", {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify(nuevoTama)
+            }).then(r => {
+              if (r.status == 200) {
+                r.json().then(() => {
+                  cargarColeccion();
+                  cargarCatalogo();
+                });
+              }
+            });
+          });
+        }
+      }
     });
+  }
+});
+
+cargarColeccion();
+cargarCatalogo();
+cargarFavoritos();
